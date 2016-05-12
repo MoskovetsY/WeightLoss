@@ -99,7 +99,7 @@ table {
 
 .weight-img-box {
   float: left;
-  width: 365px;
+  width: 380px;
   height: 380px;
   border-radius: 50%;
   background: url(../images/torso.png) no-repeat;
@@ -251,6 +251,36 @@ input[type="text"] {
   background-color: #F4C3C7; }
   .danger-weight-item6 .danger-weight-item_txt {
     padding: 85px 5px 0 5px; }
+
+.olena {
+  height: 100vh;
+  padding-top: 100px;
+  background-color: #fff; }
+
+.olena-img-box {
+  float: left;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: url(../images/Olena.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.75); }
+
+.olena-txt-box {
+  float: right;
+  width: 58%;
+  padding-top: 30px;
+  text-shadow: 0px 0px 1px #969696; }
+  .olena-txt-box .olena-txt-box_title {
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #64237B;
+    text-transform: uppercase; }
+  .olena-txt-box ul {
+    list-style: disc;
+    font-size: 23px;
+    line-height: 1.5; }
 
 * {
   box-sizing: border-box; }
