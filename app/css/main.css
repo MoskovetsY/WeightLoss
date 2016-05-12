@@ -66,10 +66,10 @@ table {
   margin-top: 100px;
   text-shadow: 0px 0px 1px #969696; }
   .logo-text .head-title {
-    margin-bottom: 27px;
     font-size: 45px;
     line-height: 1.2; }
   .logo-text .head-text {
+    margin-top: 27px;
     font-size: 26px;
     color: #6D6D6D; }
 
@@ -91,8 +91,35 @@ table {
   margin: 45px 45px 0 0; }
 
 .weight {
-  height: 530px;
+  height: 100vh;
+  padding-top: 60px;
   background-color: #F8F8FB; }
+
+.weight-img-box {
+  float: left;
+  width: 365px;
+  height: 380px;
+  border-radius: 50%;
+  background: url(../images/torso.png) no-repeat;
+  background-size: cover;
+  box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.75); }
+
+.weight-txt-box {
+  float: right;
+  width: 58%; }
+  .weight-txt-box .weight-txt-box_title {
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #64237B; }
+  .weight-txt-box .weight-txt-box_text1 {
+    font-size: 23px;
+    line-height: 1.5; }
+  .weight-txt-box .weight-txt-box_text2 {
+    padding: 15px 0;
+    font-size: 23px; }
+  .weight-txt-box .weight-txt-box_text3 {
+    font-size: 23px;
+    line-height: 1.5; }
 
 * {
   box-sizing: border-box; }
