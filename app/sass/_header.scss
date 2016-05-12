@@ -3,7 +3,7 @@
     background-color: #fff;
 }
 
-.head-container{
+.container{
     width: 1100px;
     margin: 0 auto;
 }
@@ -28,8 +28,11 @@
     }
 }
 
-.main-btn{
+.main-btn-wrap{
     float: right;
+}
+
+.main-btn{
     padding: 13px 25px;
     font-size: 18px;
     text-transform: uppercase;

@@ -54,7 +54,7 @@ table {
   margin-top: 50px;
   background-color: #fff; }
 
-.head-container {
+.container {
   width: 1100px;
   margin: 0 auto; }
 
@@ -73,8 +73,10 @@ table {
     font-size: 26px;
     color: #6D6D6D; }
 
+.main-btn-wrap {
+  float: right; }
+
 .main-btn {
-  float: right;
   padding: 13px 25px;
   font-size: 18px;
   text-transform: uppercase;
@@ -106,7 +108,8 @@ table {
 
 .weight-txt-box {
   float: right;
-  width: 58%; }
+  width: 58%;
+  text-shadow: 0px 0px 1px #969696; }
   .weight-txt-box .weight-txt-box_title {
     margin-bottom: 30px;
     font-size: 45px;
@@ -120,6 +123,63 @@ table {
   .weight-txt-box .weight-txt-box_text3 {
     font-size: 23px;
     line-height: 1.5; }
+
+.reg-form {
+  height: 100vh;
+  padding-top: 85px;
+  background-color: #fff; }
+
+.reg-form_title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 0px 0px 1px #969696; }
+  .reg-form_title .red-txt {
+    color: red; }
+
+.reg-form-wrap {
+  position: relative;
+  width: 560px;
+  height: 330px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #64237B;
+  box-shadow: 0px 0px 35px -7px #cfcfcf; }
+
+.form-txt {
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-shadow: 0px 0px 1px #969696; }
+
+.form-txt2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-shadow: 0px 0px 1px #969696; }
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid #64237B;
+  border-radius: 5px;
+  font-size: 19px; }
+
+.reg-form-btn {
+  width: 228px;
+  margin: 0 auto;
+  padding-top: 40px; }
+
+.reg-form-image {
+  position: absolute;
+  right: -100px;
+  bottom: -100px; }
+
+.danger-weight {
+  height: 100vh;
+  padding-top: 60px;
+  background-color: #F8F8FB; }
 
 * {
   box-sizing: border-box; }
