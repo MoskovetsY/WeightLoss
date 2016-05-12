@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, C:/WebDir/weightloss/app/sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, C:/WebDir/weightloss/app/sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 31, C:/WebDir/weightloss/app/sass/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 34, C:/WebDir/weightloss/app/sass/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 37, C:/WebDir/weightloss/app/sass/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 41, C:/WebDir/weightloss/app/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 45, C:/WebDir/weightloss/app/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, C:/WebDir/weightloss/app/sass/_clearfix.scss */
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 1, C:/WebDir/weightloss/app/sass/_header.scss */
+.head {
+  margin-top: 50px;
+  background-color: #fff; }
+
+/* line 6, C:/WebDir/weightloss/app/sass/_header.scss */
+.head-container {
+  width: 1100px;
+  margin: 0 auto; }
+
+/* line 11, C:/WebDir/weightloss/app/sass/_header.scss */
+.logo-box {
+  float: left; }
+
+/* line 16, C:/WebDir/weightloss/app/sass/_header.scss */
+.logo-text {
+  float: left;
+  margin-top: 100px;
+  text-shadow: 0px 0px 1px #969696; }
+  /* line 20, C:/WebDir/weightloss/app/sass/_header.scss */
+  .logo-text .head-title {
+    margin-bottom: 27px;
+    font-size: 45px;
+    line-height: 1.2; }
+  /* line 25, C:/WebDir/weightloss/app/sass/_header.scss */
+  .logo-text .head-text {
+    font-size: 26px;
+    color: #6D6D6D; }
+
+/* line 31, C:/WebDir/weightloss/app/sass/_header.scss */
+.main-btn {
+  float: right;
+  padding: 13px 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 0px 0px 35px -7px #cfcfcf;
+  border-radius: 10px;
+  outline: none;
+  background-image: -webkit-linear-gradient(top, #CF7FEB 0%, #995EAD 100%);
+  border: none;
+  cursor: pointer; }
+
+/* line 45, C:/WebDir/weightloss/app/sass/_header.scss */
+.head-logo {
+  float: right;
+  margin: 45px 45px 0 0; }
+
+/* line 7, C:/WebDir/weightloss/app/sass/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 11, C:/WebDir/weightloss/app/sass/main.scss */
+body {
+  font-family: Myriad Pro Regular, sans-serif; }
+
+/* line 15, C:/WebDir/weightloss/app/sass/main.scss */
+.wrapper {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

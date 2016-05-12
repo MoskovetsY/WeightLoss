@@ -1,0 +1,9 @@
+{
+  "name": "WeightLoss",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.12.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}
