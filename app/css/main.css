@@ -262,9 +262,7 @@ input[type="text"] {
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  background: url(../images/Olena.png) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../images/Olena.png) no-repeat center top;
   box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.75); }
 
 .olena-txt-box {
@@ -306,6 +304,42 @@ input[type="text2"] {
 .js {
   height: 200px;
   background-color: #F8F8FB; }
+
+.focus {
+  padding-top: 80px;
+  text-align: center; }
+
+.focus-title {
+  color: #64237B;
+  font-size: 35px;
+  text-shadow: 0px 0px 1px #969696; }
+
+.focus-wrap {
+  margin-top: 70px;
+  padding-bottom: 80px; }
+  .focus-wrap p {
+    padding-top: 25px;
+    font-size: 23px;
+    text-shadow: 0px 0px 1px #969696; }
+
+.focus-item-img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #64237B;
+  border-radius: 50%;
+  box-shadow: 5px 5px 11px 3px rgba(0, 0, 0, 0.75); }
+
+.clock {
+  background: url(../images/clock.png) no-repeat center top; }
+
+.cell {
+  background: url(../images/cell.png) no-repeat center top; }
+
+.waist {
+  background: url(../images/waist.png) no-repeat center top; }
+
+.plus {
+  background: url(../images/plus.png) no-repeat center top; }
 
 * {
   box-sizing: border-box; }
