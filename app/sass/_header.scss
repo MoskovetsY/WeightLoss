@@ -16,7 +16,7 @@
 .logo-text{
     float: left;
     margin-top: 100px;
-    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
     .head-title{
         font-size: 45px;
         line-height: 1.2;
@@ -37,12 +37,19 @@
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
-    box-shadow: 0px 0px 35px -7px #cfcfcf;
     border-radius: 10px;
     outline: none;
-    background-image: -webkit-linear-gradient(top, #CF7FEB 0%, #995EAD 100%);
     border: none;
     cursor: pointer;
+    background-image: -ms-linear-gradient(top, #9A6EAB 0%, #995EAD 100%);
+    background-image: -moz-linear-gradient(top, #9A6EAB 0%, #995EAD 100%);
+    background-image: -o-linear-gradient(top, #9A6EAB 0%, #995EAD 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9A6EAB), color-stop(100, #995EAD));
+    background-image: -webkit-linear-gradient(top, #9A6EAB 0%, #995EAD 100%);
+    background-image: linear-gradient(to bottom, #9A6EAB 0%, #995EAD 100%);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
 }
 
 .head-logo{

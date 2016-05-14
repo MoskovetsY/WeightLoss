@@ -8,7 +8,8 @@
     margin-bottom: 30px;
     text-align: center;
     font-size: 25px;
-    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+    font-weight: 600;
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
     .red-txt{
         color: red;
     }
@@ -21,23 +22,26 @@
     margin: 0 auto;
     padding: 30px;
     border: 2px solid #64237B;
-    box-shadow: 0px 0px 35px -7px #cfcfcf;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.44);
 }
 
 .form-txt{
     margin-bottom: 10px;
     font-size: 22px;
-    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
 }
 
 .form-txt2{
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 22px;
-    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
 }
 
-input[type="text"]{
+.field-set{
     width: 100%;
     height: 40px;
     padding-left: 10px;

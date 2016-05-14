@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WeightLoss</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-2.2.3.min/index.js"></script>
+    <script src="js/jquery.spincrement.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -20,7 +22,7 @@
                     <p class="head-text">Запатентована система природного зниження ваги</p>
                 </div>
                 <div class="main-btn-wrap">
-                    <button type="button" class="main-btn">зареєструватися</button>
+                    <button type="button" class="main-btn" id="main-btn" data-target="reg-form">зареєструватися</button>
                 </div>
                 <div class="head-logo">
                     <img src="images/girl.png" alt="girl" class="logo-girl">
@@ -29,29 +31,33 @@
         </header>
         <section class="weight">
             <div class="container clearfix">
-                <div class="weight-img-box"></div>
+                <div class="weight-img-box">
+                    <img src="images/torso.png" alt="torso">
+                </div>
                 <div class="weight-txt-box">
                     <h2 class="weight-txt-box_title">Курси корекції ваги</h2>
-                    <p class="weight-txt-box_text1">
+                    <div class="left-liner">
+                        <p class="weight-txt-box_text1">
                         Наш курс зниження ваги дає гарантований результат.Система
-                    запатентована.Ви працюєте в команді з професійним дієтологом,
-                    психологом, Wellness-інструктором.
-                    </p>
-                    <p class="weight-txt-box_text2">
+                        запатентована.Ви працюєте в команді з професійним дієтологом,
+                        психологом, Wellness-інструктором.
+                        </p>
+                        <p class="weight-txt-box_text2">
                         Хочете чудо? Це не до нас!
-                    </p>
-                    <p class="weight-txt-box_text3">
+                        </p>
+                        <p class="weight-txt-box_text3">
                         Система дає поступовий результат.Це не буде швидко, але зайві
-                    кілограми не повернуться,шкіра підтягнеться, обмін речовин
-                    прискориться. Ви позбавитесь від зайвих кілограмів, оздоровите
-                    організм і по новому поглянете на себе. Ми знаємо як це робити!
-                    У нас є досвід, практика і результат! Ми вам допоможемо і підтримаємо.
-                    Прийміть рішення, запишіться на безкоштовний он-лайн урок!
-                    </p>
+                        кілограми не повернуться,шкіра підтягнеться, обмін речовин
+                        прискориться. Ви позбавитесь від зайвих кілограмів, оздоровите
+                        організм і по новому поглянете на себе. Ми знаємо як це робити!
+                        У нас є досвід, практика і результат! Ми вам допоможемо і підтримаємо.
+                        Прийміть рішення, запишіться на безкоштовний он-лайн урок!
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="reg-form">
+        <section class="reg-form" id="reg-form">
             <div class="container">
                 <h3 class="reg-form_title">
                     <span class="red-txt">Зареєструйся зараз</span> і отримай запрошення на вебінар <span class="red-txt">БЕЗКОШТОВНО</span>
@@ -59,9 +65,9 @@
                 <div class="reg-form-wrap">
                     <form action="#" id="message">
                         <p class="form-txt">Ваше ім'я:</p>
-                        <input type="text">
+                        <input type="text" class="field-set">
                         <p class="form-txt2">E-mail адреса:</p>
-                        <input type="text">
+                        <input type="text" class="field-set">
                         <div class="reg-form-btn">
                             <button type="button" class="main-btn">зареєструватися</button>
                         </div>
@@ -70,50 +76,78 @@
                 </div>
             </div>
         </section>
-        <section class="danger-weight">
-            <div class="container spec-size clearfix">
-                <h2 class="danger-weight-title">
-                    чим загрожуе зайва вага
+        <section class="schema">
+                <h2 class="schema__title">
+                    Чим загрожує зайва вага
                 </h2>
-                <div class="danger-weight-wrap">
-                    <div class="danger-weight-item1 left">
-                        <p class="danger-weight-item_txt">Порушений обмін речовин -
-                        першопричина 66% смертей в Україні</p>
+                <div class="schema__circle">
+                    <div class="schema__row">
+                        <div class="schema__col right-line bottom-line">
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    Порушенний обмін речовин - першопричина 66% смертей в Україні
+                                </span>
+                            </div>
+                        </div>
+                        <div class="schema__col left-line bottom-line" >
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    На І стадії ожиріння ризик страшних захворювань 70%, на ІІ стадії- 80%, на ІІІ- 90%
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="danger-weight-item2 right">
-                        <p class="danger-weight-item_txt">На І стадії ожиріння ризик страшних захворювань 70%, на ІІ стадії- 80%, на ІІІ- 90%</p>
+                    <div class="schema__row">
+                        <div class="schema__col modif">
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    інсульт, інфаркт стеатогепатит печінки в 40 років на ІІІ стадії ожиріння - це не випадковість, а закономірність
+                                </span>
+                            </div>
+                        </div>
+                        <div class="schema__col top-line bottom-line-mod">
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    Iнсульт, інфаркт, стеатогепатит печінки в 40 років на ІІІ стадії ожиріння - це не випадковість, а закономірність
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="danger-weight-item-img left">
-                        <img src="images/man.png" alt="man">
+                    <div class="schema__row">
+                        <div class="schema__col right-line top-line">
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    80% випадків ІХС, 90% випадків діабету ІІ типу, 1/3 ракових захворювань можна попередити
+                                </span>
+                            </div>
+                        </div>
+                        <div class="schema__col left-line top-line">
+                            <div class="schema__col-in">
+                                <span class="schema__col-text">
+                                    Кожні 10 кг зайвої ваги- це 3000 метрів кровоносних судин виснажливе навантаження на серце
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="danger-weight-item4 right">
-                        <p class="danger-weight-item_txt">інсульт, інфаркт стеатогепатит печінки в 40 років на ІІІ стадії ожиріння - це не випадковість, а закономірність</p>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="danger-weight-item5 left">
-                        <p class="danger-weight-item_txt">80% випадків ІХС, 90% випадків діабету ІІ типу, 1/3 ракових захворювань можна попередити</p>
-                    </div>
-                    <div class="danger-weight-item6 right">
-                        <p class="danger-weight-item_txt">Кожні 10 кг зайвої ваги- це 3000 метрів кровоносних судин виснажливе навантаження на серце</p>
-                    </div>
-                    <div class="clearfix"></div>
                 </div>
-            </div>
         </section>
         <section class="olena">
             <div class="container clearfix">
-                <div class="olena-img-box"></div>
+                <div class="olena-img-box">
+                    <img src="images/Olena.png" alt="Olena">
+                </div>
                 <div class="olena-txt-box">
                     <h2 class="olena-txt-box_title">ОЛЕНА СВИРИДЕНКО</h2>
-                    <ul>
-                        <li>Спеціаліст з раціонального харчування;</li>
-                        <li> Регіональний керівник проекту;</li>
-                        <li>Проходила навчання в Швеції в медичному центрі Ігельоса;</li>
-                        <li>Wellness-інструктор;</li>
-                        <li> За 2015 рік провела більше 200 тренінгів по харчуванню;</li>
-                        <li>Досвід роботи в сфері раціонального харчування більше 6 років.</li>
-                    </ul>
+                    <div class="left-liner-list">
+                        <ul class="olena-list">
+                            <li>Спеціаліст з раціонального харчування;</li>
+                            <li> Регіональний керівник проекту;</li>
+                            <li>Проходила навчання в Швеції в медичному центрі Ігельоса;</li>
+                            <li>Wellness-інструктор;</li>
+                            <li> За 2015 рік провела більше 200 тренінгів по харчуванню;</li>
+                            <li>Досвід роботи в сфері раціонального харчування більше 6 років.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -123,60 +157,92 @@
                     <span class="red-txt">Зареєструйся зараз</span> і отримай запрошення на вебінар <span class="red-txt">БЕЗКОШТОВНО</span>
                 </h3>
                 <div class="new-reg-form-wrap">
-                    <form action="#" id="message">
-                        <input type="text2" placeholder="Ваше ім'я:">
-                        <input type="text2" placeholder="E-mail адреса:">
+                    <form action="#" id="message2">
+                        <input type="text" placeholder="Ваше ім'я:" class="field-set2">
+                        <input type="text" placeholder="E-mail адреса:" class="field-set2">
                         <button type="button" class="main-btn">зареєструватися</button>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="js">
-            <h1>Тут счетчик ява скрипт!!!!</h1>
+        <section class="js" id="counts">
+            <div class="container clearfix text-center">
+                <div class="col-4">
+                    <div class="circle">
+                        <span class="spincrement" id="count1"></span>
+                    </div>
+                    <p class="label">Учаснікв</p>
+                </div>
+                <div class="col-4">
+                    <div class="circle">
+                        <span class="spincrement" id="count2"></span>
+                    </div>
+                    <p class="label">Скинуто зайвих кілограмив</p>
+                </div>
+                <div class="col-4">
+                    <div class="circle">
+                        <span class="spincrement" id="count3"></span>
+                    </div>
+                    <p class="label">Втрачено сантіметрив</p>
+                </div>
+            </div>
         </section>
         <section class="focus">
             <div class="container spec-size">
-                <h2 class="focus-title">
+                <h2 class="schema__title">
                     На що ми фокусуємось
                 </h2>
                 <div class="focus-wrap">
                     <div class="focus-item1 left">
-                        <div class="focus-item-img clock"></div>
-                        <p>Прискорення обміну речовин</p>
+                        <div class="focus-item-img clock">
+                            <img src="images/clock.png" alt="clock">
+                        </div>
+                        <p>Прискорення обміну</p>
+                        <p>речовин</p>
                     </div>
                     <div class="focus-item2 right">
-                        <div class="focus-item-img cell"></div>
-                        <p>Формування пам'яті клітини</p>
+                        <div class="focus-item-img cell">
+                            <img src="images/cell.png" alt="cell">
+                        </div>
+                        <p>Формування пам'яті</p>
+                        <p>клітини</p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="focus-wrap">
                     <div class="focus-item3 left">
-                        <div class="focus-item-img waist"></div>
-                        <p>Зниження ваги на 5-25кг за курс</p>
+                        <div class="focus-item-img waist">
+                            <img src="images/waist.png" alt="waist">
+                        </div>
+                        <p>Зниження ваги на</p>
+                        <p>5-25кг за курс</p>
                     </div>
                     <div class="focus-item4 right">
-                        <div class="focus-item-img plus"></div>
-                        <p>Покращення стану здоров'я</p>
+                        <div class="focus-item-img plus">
+                            <img src="images/plus.png" alt="plus">
+                        </div>
+                        <p>Покращення стану</p>
+                        <p>здоров'я</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
         </section>
-        <section class="new-reg-form">
+        <section class="new-reg-form grey-back">
             <div class="container">
                 <h3 class="reg-form_title">
                     <span class="red-txt">Зареєструйся зараз</span> і отримай запрошення на вебінар <span class="red-txt">БЕЗКОШТОВНО</span>
                 </h3>
                 <div class="new-reg-form-wrap">
-                    <form action="#" id="message">
-                        <input type="text2" placeholder="Ваше ім'я:">
-                        <input type="text2" placeholder="E-mail адреса:">
+                    <form action="#" id="message3">
+                        <input type="text" placeholder="Ваше ім'я:" class="field-set2">
+                        <input type="text" placeholder="E-mail адреса:" class="field-set2">
                         <button type="button" class="main-btn">зареєструватися</button>
                     </form>
                 </div>
             </div>
         </section>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

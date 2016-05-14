@@ -9,6 +9,11 @@
 @import "_js";
 @import "_focus";
 
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+   }
+
 *{
    box-sizing: border-box;
 }

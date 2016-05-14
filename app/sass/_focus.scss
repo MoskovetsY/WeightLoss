@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.spec-size{
+    width: 1000px;
+}
+
 .focus-title{
     color: #64237B;
     font-size: 35px;
@@ -13,9 +17,11 @@
     margin-top: 70px;
     padding-bottom: 80px;
     p{
-        padding-top: 25px;
-        font-size: 23px;
-        text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+        padding-top: 10px;
+        font-size: 25px;
+        text-align: center;
+        color: #424242;
+        text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
     }
 }
 
@@ -23,26 +29,9 @@
 .focus-item-img{
     width: 300px;
     height: 300px;
-    border: 2px solid #64237B;
     border-radius: 50%;
-    box-shadow: 5px 5px 11px 3px rgba(0,0,0,0.75);
 }
 
-.clock{
-    background: url(../images/clock.png) no-repeat center top;
-}
-
-.cell{
-    background: url(../images/cell.png) no-repeat center top;
-}
-
-.waist{
-    background: url(../images/waist.png) no-repeat center top;
-}
-
-.plus{
-    background: url(../images/plus.png) no-repeat center top;
-}
 
 
 
