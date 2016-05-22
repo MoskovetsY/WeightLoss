@@ -8,6 +8,8 @@
 @import "_newregform";
 @import "_js";
 @import "_focus";
+@import "_comments";
+@import "_footer";
 
 @font-face {
     font-family: Roboto;
@@ -16,6 +18,10 @@
 
 *{
    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
 }
 
 body{

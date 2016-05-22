@@ -67,11 +67,11 @@ table {
   margin-top: 100px;
   text-shadow: 0px 0px 0px #969696; }
   .logo-text .head-title {
-    font-size: 45px;
+    font-size: 3rem;
     line-height: 1.2; }
   .logo-text .head-text {
     margin-top: 27px;
-    font-size: 26px;
+    font-size: 1.733rem;
     color: #6D6D6D; }
 
 .main-btn-wrap {
@@ -79,7 +79,7 @@ table {
 
 .main-btn {
   padding: 13px 25px;
-  font-size: 18px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #fff;
   border-radius: 10px;
@@ -117,10 +117,10 @@ table {
   text-shadow: 0px 0px 0px #969696; }
   .weight-txt-box .weight-txt-box_title {
     margin-bottom: 30px;
-    font-size: 45px;
+    font-size: 3rem;
     color: #64237B; }
   .weight-txt-box .weight-txt-box_text1 {
-    font-size: 23px;
+    font-size: 1.533rem;
     line-height: 1.5; }
   .weight-txt-box .weight-txt-box_text2 {
     padding: 15px 0;
@@ -142,7 +142,7 @@ table {
 .reg-form_title {
   margin-bottom: 30px;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.667rem;
   font-weight: 600;
   text-shadow: 0px 0px 0px #969696; }
   .reg-form_title .red-txt {
@@ -162,7 +162,7 @@ table {
 
 .form-txt {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 1.467rem;
   text-shadow: 0px 0px 0px #969696; }
 
 .form-txt2 {
@@ -178,7 +178,7 @@ table {
   outline: none;
   border: 1px solid #64237B;
   border-radius: 5px;
-  font-size: 19px; }
+  font-size: 1.267rem; }
 
 .reg-form-btn {
   width: 228px;
@@ -328,14 +328,14 @@ table {
   text-shadow: 0px 0px 0px #969696; }
   .olena-txt-box .olena-txt-box_title {
     margin-bottom: 30px;
-    font-size: 45px;
+    font-size: 3rem;
     color: #64237B;
     text-transform: uppercase; }
 
 .olena-list {
   padding-left: 35px;
   list-style: disc;
-  font-size: 23px;
+  font-size: 1.533rem;
   line-height: 1.5; }
 
 .left-liner-list {
@@ -366,7 +366,7 @@ table {
   outline: none;
   border: 1px solid #64237B;
   border-radius: 5px;
-  font-size: 19px; }
+  font-size: 1.267rem; }
 
 .js {
   padding: 45px 0;
@@ -380,12 +380,12 @@ table {
 
 .circle {
   color: #64237B;
-  font-size: 70px;
+  font-size: 4.667rem;
   font-weight: bold; }
 
 .label {
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 1.667rem;
   color: #666666; }
 
 .focus {
@@ -397,7 +397,7 @@ table {
 
 .focus-title {
   color: #64237B;
-  font-size: 35px;
+  font-size: 2.333rem;
   text-shadow: 0px 0px 1px #969696; }
 
 .focus-wrap {
@@ -405,7 +405,7 @@ table {
   padding-bottom: 80px; }
   .focus-wrap p {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 1.667rem;
     text-align: center;
     color: #424242;
     text-shadow: 0px 0px 0px #969696; }
@@ -415,12 +415,97 @@ table {
   height: 300px;
   border-radius: 50%; }
 
+.comments {
+  height: 100vh;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  background-color: #fff; }
+
+.comments-img-box {
+  float: left; }
+
+.comments-txt-box {
+  float: right;
+  width: 65%;
+  text-shadow: 0px 0px 0px #969696; }
+  .comments-txt-box .comments-txt-box_title {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: #64237B; }
+  .comments-txt-box .comments-txt-box_text1 {
+    font-size: 1.533rem;
+    line-height: 1.5; }
+  .comments-txt-box .comments-txt-box_text2 {
+    font-size: 1.533rem;
+    line-height: 1.5; }
+  .comments-txt-box .comments-txt-box_text3 {
+    font-size: 1.533rem;
+    line-height: 1.5; }
+
+.comments-txt-name {
+  margin-top: 20px;
+  font-size: 1.467rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  color: #8254a2; }
+
+.foot {
+  height: 90px;
+  background-color: #895ca8; }
+
+.foot-wrap {
+  margin-top: 35px; }
+
+.copyright {
+  float: left;
+  margin-left: 40px;
+  padding: 5px 0;
+  color: #ffffff;
+  font: 300 1rem Roboto; }
+
+.number {
+  margin-left: 120px;
+  padding: 5px 0 5px 35px;
+  background: url(../images/molumen_phone_icon.png) no-repeat center left;
+  color: #ffffff;
+  font: 300 1rem Roboto;
+  text-decoration: none; }
+
+.mailol {
+  margin-left: 70px;
+  padding: 5px 0 5px 35px;
+  background: url(../images/mes.png) no-repeat center left;
+  color: #ffffff;
+  font: 300 1rem Roboto;
+  text-decoration: none; }
+
+.design {
+  margin-left: 70px;
+  padding: 5px 0 5px 35px;
+  background: url(../images/hammer.png) no-repeat center left;
+  color: #ffffff;
+  font: 300 1rem Roboto;
+  text-decoration: none; }
+
+.ltava {
+  display: inline-block;
+  width: 61px;
+  height: 26px;
+  padding: 5px 0 5px 35px;
+  margin-left: 10px;
+  background: url(../images/LOGO_ltava.png) no-repeat;
+  text-decoration: none; }
+
 @font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto-Regular.ttf); }
 
 * {
   box-sizing: border-box; }
+
+html {
+  font-size: 15px; }
 
 body {
   font-family: Myriad Pro Regular, sans-serif; }
